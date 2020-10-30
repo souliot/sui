@@ -1,0 +1,182 @@
+/* BEM support Func
+ -------------------------- */
+/* Break-points
+ -------------------------- */
+/* Scrollbar
+ -------------------------- */
+/* Placeholder
+ -------------------------- */
+/* BEM
+ -------------------------- */
+/* SUI Theme Variables*/
+/* Link
+-------------------------- */
+/* Border
+-------------------------- */
+/* Fill
+-------------------------- */
+/* Typography
+-------------------------- */
+/* Size
+-------------------------- */
+/* z-index
+-------------------------- */
+/* Disable base
+-------------------------- */
+/* Icon
+-------------------------- */
+/* Checkbox
+-------------------------- */
+/* Radio
+-------------------------- */
+/* Select
+-------------------------- */
+/* Alert
+-------------------------- */
+/* MessageBox
+-------------------------- */
+/* Message
+-------------------------- */
+/* Notification
+-------------------------- */
+/* Input
+-------------------------- */
+/* Cascader
+-------------------------- */
+/* Group
+-------------------------- */
+/* Tab
+-------------------------- */
+/* Button
+-------------------------- */
+/* cascader
+-------------------------- */
+/* Switch
+-------------------------- */
+/* Dialog
+-------------------------- */
+/* Table
+-------------------------- */
+/* Pagination
+-------------------------- */
+/* Popup
+-------------------------- */
+/* Popover
+-------------------------- */
+/* Tooltip
+-------------------------- */
+/* Tag
+-------------------------- */
+/* Tree
+-------------------------- */
+/* Dropdown
+-------------------------- */
+/* Badge
+-------------------------- */
+/* Card
+--------------------------*/
+/* Slider
+--------------------------*/
+/* Steps
+--------------------------*/
+/* Menu
+--------------------------*/
+/* Rate
+--------------------------*/
+/* DatePicker
+--------------------------*/
+/* Loading
+--------------------------*/
+/* Scrollbar
+--------------------------*/
+/* Carousel
+--------------------------*/
+/* Collapse
+--------------------------*/
+/* Transfer
+--------------------------*/
+/* Header
+  --------------------------*/
+/* Footer
+--------------------------*/
+/* Main
+--------------------------*/
+/* Timeline
+--------------------------*/
+/* Backtop
+--------------------------*/
+/* Link
+--------------------------*/
+/* Calendar
+--------------------------*/
+/* Form
+-------------------------- */
+/* Avatar
+--------------------------*/
+/* Break-point
+--------------------------*/
+.s-card {
+  position: relative;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #303133;
+}
+.s-card--default {
+  border-top: 3px solid;
+  border-top-color: #dcdfe6;
+}
+
+.s-card--success {
+  border-top: 3px solid;
+  border-top-color: #19be6b;
+}
+
+.s-card--warning {
+  border-top: 3px solid;
+  border-top-color: #ff9900;
+}
+
+.s-card--danger {
+  border-top: 3px solid;
+  border-top-color: #ed4014;
+}
+
+.s-card--info {
+  border-top: 3px solid;
+  border-top-color: #2db7f5;
+}
+
+.s-card.is-always-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+.s-card.is-hover-shadow:hover, .s-card.is-hover-shadow:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
+
+.s-card__header {
+  padding: 16px 16px;
+  border-bottom: 1px solid #ebeef5;
+  box-sizing: border-box;
+}
+.s-card__header--small {
+  padding: 10px 10px;
+}
+
+.s-card__extra {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+.s-card__extra--small {
+  right: 10px;
+  top: 10px;
+}
+
+.s-card__body {
+  padding: 10px;
+}
+.s-card__body--small {
+  padding: 10px;
+}

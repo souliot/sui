@@ -1,0 +1,72 @@
+@import '../mixins/mixins';
+@import '../common/var';
+
+@include b(card) {
+  position: relative;
+  border-radius: $--card-border-radius;
+  background: $--color-white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: $--color-text-primary;
+
+  @include m(default) {
+    border-top: 3px solid;
+    border-top-color: $--border-color-base-dark;
+  }
+  @include m(success) {
+    border-top: 3px solid;
+    border-top-color: $--color-success;
+  }
+  @include m(warning) {
+    border-top: 3px solid;
+    border-top-color: $--color-warning;
+  }
+  @include m(danger) {
+    border-top: 3px solid;
+    border-top-color: $--color-danger;
+  }
+  @include m(info) {
+    border-top: 3px solid;
+    border-top-color: $--color-info;
+  }
+
+  @include when(always-shadow) {
+    box-shadow: $--box-shadow-base;
+  }
+  @include when(hover-shadow) {
+    &:hover,
+    &:focus {
+      box-shadow: $--box-shadow-base;
+    }
+  }
+
+  @include e(header) {
+    padding: #{$--card-padding - 2 $--card-padding};
+    border-bottom: 1px solid $--card-border-color;
+    box-sizing: border-box;
+  }
+
+  @include e(extra) {
+    position: absolute;
+    right: #{$--card-padding};
+    top: #{$--card-padding};
+  }
+
+  @include e(body) {
+    padding: #{$--card-padding};
+  }
+
+  @include m(small) {
+    @include e(header) {
+      padding: #{$--card-padding-small - 2 $--card-padding-small};
+    }
+
+    @include e(extra) {
+      right: #{$--card-padding-small};
+      top: #{$--card-padding-small};
+    }
+
+    @include e(body) {
+      padding: #{$--card-padding-small};
+    }
+  }
+}

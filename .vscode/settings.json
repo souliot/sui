@@ -1,0 +1,9 @@
+{
+  "compile-hero.disable-compile-files-on-did-save-code": false,
+  "compile-hero.scss-output-directory": "../../../lib/theme",
+  "compile-hero.ignore": [
+    "**/theme/src/common/**",
+    "**/theme/src/component/**",
+    "**/theme/src/mixins/**"
+  ]
+}
